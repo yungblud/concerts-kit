@@ -1,7 +1,10 @@
 {
   "name": "concerts-kit",
   "version": "1.0.0",
-  "main": "dist/index.js",
+  "main": "dist/core.js",
+  "files": [
+    "dist"
+  ],
   "license": "MIT",
   "devDependencies": {
     "axios": "^1.5.0",
