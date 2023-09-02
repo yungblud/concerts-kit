@@ -1,0 +1,9 @@
+{
+  "name": "concerts-kit",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.2.2"
+  }
+}
