@@ -1,5 +1,5 @@
 import axios from 'axios'
-import { AddAxiosRequestInterceptorParams, ConcertsKitCommonHeaders } from './types'
+import { AddAxiosRequestInterceptorParams, ConcertsKitCommonHeaders } from '../types'
 
 const axiosInstance = axios.create()
 

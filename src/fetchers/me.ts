@@ -1,4 +1,5 @@
-import HttpRequest from "../HttpRequest";
+import HttpRequest from "../lib/HttpRequest";
+import throwFetchError from "../lib/throwFetchError";
 import User from "../models/User";
 import UserSchema, { UserSchemaType } from "../schema/UserSchema";
 
@@ -15,7 +16,7 @@ export default class Me {
             })
             return user.serialize()
         } catch (e) {
-            throw e
+            throwFetchError(e)
         }
     }
 }
